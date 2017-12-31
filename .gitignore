@@ -1,2 +1,4 @@
 MenuSystemSystem/Library/
 MenuSystemSystem/Temp/
+*.sln
+*.csproj
