@@ -15,3 +15,9 @@ Also includes DOTween for some simple menu transition animations.
 
 
 Tested working on 5.6.4f1 
+
+
+## How to Use
+
+* It's a Unity project so open it in Unity
+* Open the scene called 'scene_01' and play around with that to see how the SampleGame is set up
