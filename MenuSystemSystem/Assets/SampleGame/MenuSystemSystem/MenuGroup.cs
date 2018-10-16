@@ -159,4 +159,19 @@ public class MenuGroup : MonoBehaviour
     {
         this.menuSystemController = menuSystemController;
     }
+
+    protected string[] ConvertParamsToStringArray(object[] paramss)
+    {
+        string[] array = new string[paramss.Length];
+        for (int i = 0; i < paramss.Length; i++)
+        {
+            array[i] = (string)paramss[i];
+        }
+        return array;
+    }
+
+    protected bool HasParameters(object[] parameters)
+    {
+        return parameters != null && parameters.Length > 0;
+    }
 }

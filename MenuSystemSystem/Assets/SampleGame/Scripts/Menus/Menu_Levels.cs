@@ -13,7 +13,10 @@ public class Menu_Levels : SampleGameMenuGroup
     {
         base.Open(parameters);
 
-        BuildLevelList((string[])parameters);
+        if (HasParameters(parameters))
+        {
+            BuildLevelList((string[])parameters);
+        }
     }
 
     public void BuildLevelList(string[] levels)
